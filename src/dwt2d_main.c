@@ -52,8 +52,8 @@ int main(int argc, char *argv[]) {
 	free(img);
 	free(tmp);
 
-	fclose(fout_src);
-	fclose(fout_dst);
+  // fclose(fout_src);
+  // fclose(fout_dst);
 
 	return 0;
 }
